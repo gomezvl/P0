@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Object Sans';
+    src: url('../fonts/ObjectSans-Regular.eot');
+    src: url('../fonts/ObjectSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ObjectSans-Regular.woff2') format('woff2'),
+        url('../fonts/ObjectSans-Regular.woff') format('woff'),
+        url('../fonts/ObjectSans-Regular.ttf') format('truetype'),
+        url('../fonts/ObjectSans-Regular.svg#ObjectSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: yellow;
+}
+
+h1,
+h2 {
+    font-family: 'Object Sans'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 100px;
+    background: aqua;
+    position: relative;
+}
+
+nav {
+    top: 100px;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+main {
+    font-family: 'Staatliches', cursive;
+}
+
+footer {
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+section:first-child p:nth-child(2) {
+    background: pink;
+    font-family: "Arial Black";
+}
+
+section:first-child p {
+    background: orange;
+    font-family: "Monaco";
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+h4 {
+    float: right;
+}
+
+h4 a {
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 100%;
+    background-color: fuchsia;
+}
+
+h4 a:hover {
+    box-shadow: 0 0 10px black;
+}
+
+@media (max-width:600px) {
+    body {
+        background-color: red;
+    }
+}
